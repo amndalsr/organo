@@ -1,0 +1,22 @@
+.rodape-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0px;
+    background-image: url('/public/imagens/rodape.png');
+    background-repeat: no-repeat;
+    background-color: #202230;
+    background-size: 100%;
+}
+
+.rodape-principal .links {
+    display: flex;
+    gap: 70px;
+}
+
+.rodape-principal h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+}
